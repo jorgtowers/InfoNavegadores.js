@@ -1,38 +1,33 @@
 ﻿
-## Nombre..............:ObtenerInfomacionNavegador
-Tipo................:
-FechaCreacion.......:01/01/0001 12:00:00 a.m.
-Autor...............:Jorge Torres
-ArchivoFisico.......:InfoNavegadores
-Descripcion.........:
+## ObtenerInfomacionNavegador
+	Tipo................: Clase
+	FechaCreacion.......:01/01/0001 12:00:00 a.m.
+	Autor...............:Jorge Torres
+	ArchivoFisico.......:InfoNavegadores
+	Descripcion.........:22
 
-//------------- Metodos .............//
-	### Nombre.............:ComparacionIE
+	### Metodo: ComparacionIE
 	Tipo...............:Void
 	Descripcion........:Compara la versión del Navegador contra la indicada por el usuario, y en caso de coincidir activa el callback
 
-//------------- Parametro
-		Nombre............:object
+		### Parametro: object
 		Tipo..............:Object
 		Descripcion.......:Resive el objecto instanciado de la clase para poder ejecutar los metodos internos
 
-//------------- Parametro
-		Nombre............:version
+		### Parametro: version
 		Tipo..............:Int
 		Descripcion.......:Resive numero de versión a comparar, contra la versión del Navegador
 
-//------------- Parametro
-		Nombre............:callback
+		### Parametro: callback
 		Tipo..............:Object
 		Descripcion.......:Resive función a ejecutar en caso de hacer match la versión suministrada contra la versión del Navegador
 
 
-	Nombre.............:Redireccion
+	### Metodo: Redireccion
 	Tipo...............:Void
 	Descripcion........:Redirije hacia una Url suministrada por el usuario
 
-//------------- Parametro
-		Nombre............:url
+		### Parametro: url		
 		Tipo..............:String
 		Descripcion.......:Resive dirección URL, hacia la cual debe ir la redirección
 
