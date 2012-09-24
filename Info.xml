@@ -1,0 +1,108 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Objecto>
+<Nombre>ObtenerInfomacionNavegador</Nombre>
+<Tipo></Tipo>
+<FechaCreacion>01/01/0001 12:00:00 a.m.</FechaCreacion>
+<Autor>Jorge Torres</Autor>
+<ArchivoFisico>InfoNavegadores</ArchivoFisico>
+<Descripcion></Descripcion>
+<Metodos>
+<Metodo>
+<Nombre>ComparacionIE</Nombre>
+<Tipo>Void</Tipo>
+<Descripcion>Compara la versión del Navegador contra la indicada por el usuario, y en caso de coincidir activa el callback</Descripcion>
+<Parametros>
+<Parametro>
+<Nombre>object</Nombre>
+<Tipo>Object</Tipo>
+<Descripcion>Resive el objecto instanciado de la clase para poder ejecutar los metodos internos</Descripcion>
+</Parametro>
+<Parametro>
+<Nombre>version</Nombre>
+<Tipo>Int</Tipo>
+<Descripcion>Resive numero de versión a comparar, contra la versión del Navegador</Descripcion>
+</Parametro>
+<Parametro>
+<Nombre>callback</Nombre>
+<Tipo>Object</Tipo>
+<Descripcion>Resive función a ejecutar en caso de hacer match la versión suministrada contra la versión del Navegador</Descripcion>
+</Parametro>
+</Parametros>
+</Metodo>
+<Metodo>
+<Nombre>Redireccion</Nombre>
+<Tipo>Void</Tipo>
+<Descripcion>Redirije hacia una Url suministrada por el usuario</Descripcion>
+<Parametros>
+<Parametro>
+<Nombre>url</Nombre>
+<Tipo>String</Tipo>
+<Descripcion>Resive dirección URL, hacia la cual debe ir la redirección</Descripcion>
+</Parametro>
+</Parametros>
+</Metodo>
+<Metodo>
+<Nombre>Notificacion.ConAlerta</Nombre>
+<Tipo>Void</Tipo>
+<Descripcion>Muestra al usuario un PopUp con un mensaje indicado por el usuario</Descripcion>
+<Parametros>
+<Parametro>
+<Nombre>mensaje</Nombre>
+<Tipo>String</Tipo>
+<Descripcion>Resive mensaje que será mostrado al usuario vía PopUp</Descripcion>
+</Parametro>
+</Parametros>
+</Metodo>
+<Metodo>
+<Nombre>Notificacion.ConElementoHtml</Nombre>
+<Tipo>Void</Tipo>
+<Descripcion>Muestra al usuario un mensaje en el Body del Html y puede tener estilo de Css</Descripcion>
+<Parametros>
+<Parametro>
+<Nombre>selector</Nombre>
+<Tipo>String</Tipo>
+<Descripcion>Resive id de elemento Html para ubicar el elemento en el Body</Descripcion>
+</Parametro>
+<Parametro>
+<Nombre>styleCss</Nombre>
+<Tipo>String</Tipo>
+<Descripcion>Resive nombre de clase Css, que decorará el elemento Html</Descripcion>
+</Parametro>
+<Parametro>
+<Nombre>texto</Nombre>
+<Tipo>String</Tipo>
+<Descripcion>Resive texto que será mostrado en el elemento Html</Descripcion>
+</Parametro>
+</Parametros>
+</Metodo>
+</Metodos>
+<Propiedades>
+<Propiedad>
+<Nombre>Nombre</Nombre>
+<Tipo>String</Tipo>
+<Descripcion>Retorna nombre del Navegador</Descripcion>
+</Propiedad>
+<Propiedad>
+<Nombre>SistemaOperativo</Nombre>
+<Tipo>String</Tipo>
+<Descripcion>Retorna sistema operativo del Navegador</Descripcion>
+</Propiedad>
+<Propiedad>
+<Nombre>Agente</Nombre>
+<Tipo>String</Tipo>
+<Descripcion>Retorna UserAgent del Navegador</Descripcion>
+</Propiedad>
+<Propiedad>
+<Nombre>Version</Nombre>
+<Tipo>Int</Tipo>
+<Descripcion>Retorna el numero de versión del Navegador</Descripcion>
+</Propiedad>
+<Propiedad>
+<Nombre>VersionIE</Nombre>
+<Tipo>Int</Tipo>
+<Descripcion>Retorna el numero de versión de Internet Explore</Descripcion>
+</Propiedad>
+</Propiedades>
+<Variables>
+</Variables>
+</Objecto>
