@@ -1,7 +1,5 @@
-﻿<strong>//------------- ReadMe --------------//</strong>
-
-
-Nombre..............:ObtenerInfomacionNavegador
+﻿
+## Nombre..............:ObtenerInfomacionNavegador
 Tipo................:
 FechaCreacion.......:01/01/0001 12:00:00 a.m.
 Autor...............:Jorge Torres
@@ -9,7 +7,7 @@ ArchivoFisico.......:InfoNavegadores
 Descripcion.........:
 
 //------------- Metodos .............//
-	Nombre.............:ComparacionIE
+	### Nombre.............:ComparacionIE
 	Tipo...............:Void
 	Descripcion........:Compara la versión del Navegador contra la indicada por el usuario, y en caso de coincidir activa el callback
 
