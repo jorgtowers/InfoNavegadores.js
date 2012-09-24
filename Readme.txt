@@ -1,4 +1,4 @@
-﻿//------------- ReadMe --------------//
+﻿<strong>//------------- ReadMe --------------//</strong>
 
 
 Nombre..............:ObtenerInfomacionNavegador
